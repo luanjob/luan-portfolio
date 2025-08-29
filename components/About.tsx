@@ -8,14 +8,15 @@ const About: React.FC = () => {
         <SectionTitle title="Sobre Mim" />
         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-20">
           <div className="w-full md:w-1/3 flex justify-center">
-            <div className="relative w-64 h-64">
-              <div className="absolute inset-0 bg-green-500 rounded-full transform rotate-6"></div>
-              <img
-                src="https://picsum.photos/400/400?grayscale"
-                alt="Luan Santos"
-                className="relative w-full h-full object-cover rounded-full border-4 border-white dark:border-black shadow-lg"
-              />
-            </div>
+          <div className="relative w-80 h-80">  {/* era w-64 h-64 */}
+  <div className="absolute inset-0 bg-green-500 rounded-full transform rotate-6"></div>
+  <img
+    src="../assets/luan.jpg"
+    alt="Luan Santos"
+    className="relative w-full h-full object-cover rounded-full border-4 border-white dark:border-black shadow-lg"
+  />
+</div>
+
           </div>
           <div className="w-full md:w-2/3 text-center md:text-left">
             <h3 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">

@@ -44,13 +44,13 @@ Para visualizar ou modificar este projeto em sua máquina local, siga os passos 
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/luanjob/meu-portfolio.git
+   git clone https://github.com/luanjob/luan-portfolio.git
    ```
    *(Observação: substitua a URL pelo link correto do seu repositório quando ele for criado).*
 
 2. **Navegue até o diretório do projeto:**
    ```bash
-   cd meu-portfolio
+   cd luan-portfolio
    ```
 
 3. **Inicie um servidor local:**
