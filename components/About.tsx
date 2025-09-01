@@ -1,5 +1,5 @@
-import React from 'react';
-import SectionTitle from './SectionTitle';
+import React from "react";
+import SectionTitle from "./SectionTitle";
 
 const About: React.FC = () => {
   return (
@@ -8,28 +8,37 @@ const About: React.FC = () => {
         <SectionTitle title="Sobre Mim" />
         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-20">
           <div className="w-full md:w-1/3 flex justify-center">
-          <div className="relative w-80 h-80">  {/* era w-64 h-64 */}
-  <div className="absolute inset-0 bg-green-500 rounded-full transform rotate-6"></div>
-  <img
-    src="../assets/luan.jpg"
-    alt="Luan Santos"
-    className="relative w-full h-full object-cover rounded-full border-4 border-white dark:border-black shadow-lg"
-  />
-</div>
-
+            <div className="relative w-80 h-80">
+              {" "} 
+              {/* era w-64 h-64 */}
+              <div className="absolute inset-0 bg-green-500 rounded-full transform rotate-6"></div>
+              <img
+                src="../assets/luan.jpg"
+                alt="Luan Santos"
+                className="relative w-full h-full object-cover rounded-full border-4 border-white dark:border-black shadow-lg"
+              />
+            </div>
           </div>
           <div className="w-full md:w-2/3 text-center md:text-left">
             <h3 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">
               Olá! Sou Luan Santos.
             </h3>
             <p className="text-lg text-slate-700 dark:text-green-300 mb-4 leading-relaxed">
-              Tenho 25 anos, resido em Nova Iguaçu - RJ e sou um desenvolvedor Frontend apaixonado por criar experiências digitais intuitivas e visualmente atraentes. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas para aprofundar meus conhecimentos.
+              Tenho 25 anos, resido em Nova Iguaçu - RJ e sou um desenvolvedor
+              Frontend apaixonado por criar experiências digitais intuitivas e
+              visualmente atraentes. Atualmente, estou cursando Análise e
+              Desenvolvimento de Sistemas para aprofundar meus conhecimentos.
             </p>
             <p className="text-lg text-slate-700 dark:text-green-300 mb-4 leading-relaxed">
-              Minha jornada na programação começou com Lógica de Programação, e desde então, me especializei em tecnologias como React, JavaScript e Material UI. Embora meu foco seja o frontend, tenho uma boa compreensão de backend e banco de dados, o que me dá uma visão completa do ciclo de desenvolvimento.
+              Minha jornada na programação começou com Lógica de Programação, e
+              desde então, me especializei em tecnologias como React, JavaScript
+              e Material UI. Embora meu foco seja o frontend, tenho uma boa
+              compreensão de backend e banco de dados, o que me dá uma visão
+              completa do ciclo de desenvolvimento.
             </p>
-             <p className="text-lg text-slate-700 dark:text-green-300 mb-6 leading-relaxed">
-              Fora do código, gosto de manter o equilíbrio praticando musculação, ouvindo música e valorizando momentos de paz.
+            <p className="text-lg text-slate-700 dark:text-green-300 mb-6 leading-relaxed">
+              Fora do código, gosto de manter o equilíbrio praticando
+              musculação, ouvindo música e valorizando momentos de paz.
             </p>
             <a
               href="#"
